@@ -76,7 +76,7 @@ export const userExamDetailAtom = atom<UserExamListType>({
 
 export const ExamTimerAtom = atom({
   key: 'ExamTimerAtom',
-  default: 60,
+  default: 600,
 });
 
 export const ExamTimerShowAtom = atom({
